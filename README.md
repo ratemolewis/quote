@@ -1,27 +1,38 @@
 # Quotes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
+This is quotes application that helps for users to be able to post their favourite votes that are subjected to upvotes or downvoters by viwers. This application is able to determine the most liked vote dependending on the votes that each quote gets.
 
-## Development server
+## Requiremwnts
+For one to run this project, node installation has to be availablVe and have atom or V.B compiler.ca To install it one has to clone his to his laptop and be able to run it from your laptop.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Installation
 
-## Code scaffolding
+1.Navigate to my repository’s Code tab.
+2.Click Clone or download button on the left conner.
+3.Open the terminal and create a directory cd ~/
+4.Clone the repo to your directory $git clone <URL>
+5.Navigate to the repository and replace it with your name  cd <REPOSITORY-NAME>
+7.See the state of your repository by $git status
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
+## Built With
+It is made witha angular cli.
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## Author
+.Ratemo Lewis
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#List of Contributors
+.Joshia 
+.Moringa TMs
 
-## Running end-to-end tests
+## Lince
+This project is lincesd under the MIT Linces.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+## Acknowledgements
+.God for this oppotunity.
+.Inspiration 
+.Hat tip to anyone whose code was used.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
