@@ -25,13 +25,13 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 .Joshia 
 .Moringa TMs
 
-## Lince
+## Lincese
 This project is lincesd under the MIT Linces.
 
 
 ## Acknowledgements
-.God for this oppotunity.
-.Inspiration 
+.God for this oppotunity.<br>
+.Inspiration<br>
 .Hat tip to anyone whose code was used.
 
 
