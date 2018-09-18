@@ -21,7 +21,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 ## Author
 .Ratemo Lewis
 
-#List of Contributors
+#List of Contributors<br>
 .Joshia <br>
 .Moringa TMs
 
