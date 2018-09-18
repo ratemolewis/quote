@@ -1,0 +1,24 @@
+  <div class="container-fluid">
+  <div class="row">
+    <form (ngSubmit)='submitQuote()' #quoteform='ngForm'>
+        <div class="form-group">
+          <label for="title">Title</label><br>
+          <input class="form-control" id="name" #name="ngModel" type="text" [(ngModel)]="newQuote.title" name='name' required >
+          <div [hidden]="name.valid || name.pristin " class="alert alert-danger">
+            <p>Title is required</p>
+          </div>
+        </div>
+        <div class="form-group">
+          <h5>Write Qote</h5>
+          <textarea class="form-control" id="description" #desription="ngModel"[(ngModel)]="newQuote.description" name="name" rows="8" id="myform" required></textarea><br>
+          <div [hidden]="description.valid || description.pristin" class="alert-danger">
+            <p>Quote required</p>
+
+          </div>
+          <button type="submit" class="btn btn-success" name="button">submit</button>
+        </div>
+
+    </form>
+
+  </div>
+</div>

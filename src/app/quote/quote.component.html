@@ -1,0 +1,36 @@
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <hr>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6 card bg-light mb-3">
+        <app-quote-form (addquote)="addObjectArray($event)"></app-quote-form>
+      </div>
+      <div class="col-md-6 card">
+        <div  *ngFor='let quote of quotes;let i=index'>
+
+            <div class="">
+              <label for="quoteTitle">Quote Title</label>
+              <h5 class="text-success">{{quote.title}}</h5>
+              <label for="quote">Quote </label>
+
+              <p class="lead"> {{quote.description}}</p>
+
+                <h4 > <span class="btn btn-primary btn-cons">Result Votes:{{quote.count}}</span></h4>
+                <button class="btn btn-info btn-cons"  (click)='downvoteUpvote(i)'>Upvote</button>&nbsp;
+                 <button *ngIf="quote.count > 0 " class="btn btn-success" (click)='Upvote(i)'>DownVote</button>&nbsp;
+                 <button class="btn btn-danger" type="button" (click)='deleteQuote(i)' >Delete</button>
+                 <!-- <app-quote-details></app-quote-details> -->
+
+            </div>
+             <!-- <input class="btn  btn-dannger" type="button" (onclick)="upvoteDownvote()"> -->
+
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+<!-- Display{{newQuote.title}} -->
